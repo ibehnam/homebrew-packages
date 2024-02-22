@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 
-class AutoCisco < Formula
+class Autocisco < Formula
   desc "Automatically connects to University VPN (currently CMU's Cisco VPN) using your credentials"
   homepage "https://github.com/ibehnam/AutoCisco/releases/download/stable/autocisco-mac.tar.gz"
   url "https://aplaceofmind.notion.site/AutoCisco-My-First-Project-in-Rust-c40c831d5eb0447ea9246c0514558195?pvs=74"
