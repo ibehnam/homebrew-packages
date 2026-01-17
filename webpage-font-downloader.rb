@@ -5,7 +5,7 @@ class WebpageFontDownloader < Formula
   homepage "https://github.com/ibehnam/webpage-fonts-downloader"
   url "https://github.com/ibehnam/webpage-fonts-downloader/archive/refs/heads/main.tar.gz"
   version "0.1.0"
-  sha256 "6f6d2c8b9f3ab3f03c9bea40a4c75cdcb5cf1991563a93ca2a31799f0133cda6"
+  sha256 "21dc1896eb62fd75ba84d936b8e7d08d2da72f4848660e77bd50a251e489d33c"
 
   depends_on "python@3.13"
 
@@ -69,6 +69,6 @@ class WebpageFontDownloader < Formula
   end
 
   test do
-    system bin/"download-fonts", "--help"
+    system bin/"webpage-font-downloader", "--help"
   end
 end
